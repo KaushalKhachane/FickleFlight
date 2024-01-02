@@ -1,0 +1,11 @@
+.footerbg{
+    background: linear-gradient(92deg, #0B5BA8 30.91%, #299BD8 100.98%);
+}
+
+.footerimg {
+    background: url('../assets/Footer.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-bottom: 0px;
+    height: 530px;
+}

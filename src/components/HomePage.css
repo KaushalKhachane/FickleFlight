@@ -1,0 +1,182 @@
+.bg {
+    background: linear-gradient(79deg, #114F8B -3.12%, #2A9AD7 103.77%);
+    height: 639.914px;
+    flex-shrink: 0;
+}
+
+.img {
+    height: 640px;
+    /* flex-shrink: 0; */
+    background: url('../assets/BannerBackground.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#typo {
+    color: var(--studio-darkmode-allwhite-ffffff, #FFF);
+    text-align: center;
+    font-family: Baloo Bhai;
+    font-size: 61px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 67px;
+    /* 109.836% */
+    align-self: stretch;
+}
+
+#typo2 {
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    /* 133.333% */
+}
+
+#flight {
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+    align-self: stretch;
+}
+
+#flight-head {
+    color: #303030;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+}
+
+.serches {
+    display: flex;
+    width: 1440px;
+    padding: 0px 80px;
+    flex-direction: column;
+    align-items: center;
+    gap: 80px;
+}
+
+.searches-text {
+    color: #1262AE;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.96px;
+    text-transform: capitalize;
+}
+
+.faint-border {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    /* Adjust the transparency as needed */
+    border-radius: 5px;
+    /* Adjust the radius value as needed */
+}
+
+.trip {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-self: stretch;
+}
+
+.trip-text {
+    color: #8E8E94;
+    font-family: Roboto;
+    text-align: center;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.6px;
+}
+
+.popular {
+    /* flex-shrink: 0; */
+
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.popular1 {
+    /* flex-shrink: 0; */
+    background: url('../assets/ParisImage.png');
+}
+
+.popular2 {
+    /* flex-shrink: 0; */
+    background: url('../assets/GreeceImage.png');
+}
+
+.popular3 {
+    /* flex-shrink: 0; */
+    background: url('../assets/NorwayImage.png');
+}
+
+.popular4 {
+    /* flex-shrink: 0; */
+    background: url('../assets/TuscanyImage.png');
+}
+
+.place-text {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.4px;
+}
+
+.place-from {
+    color: #FFF;
+    text-align: right;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.64px;
+    text-transform: uppercase;
+}
+
+.place-doller {
+    color: var(--studio-darkmode-allwhite-ffffff, #FFF);
+    text-align: right;
+    font-family: Baloo Bhai;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 38px;
+    /* 100% */
+}
+
+.recommended{
+    background-repeat: no-repeat;
+    background-size: cover;
+} 
+
+.recommended1{
+    background: url('../assets/bali.png');
+}
+
+.recommended2{
+    background: url('../assets/SwitzerlandImage.png');
+}
+
+.recommended3{
+    background: url('../assets/BoracayImage.png');
+}
+
+.recommended4{
+    background: url('../assets/PalawanImage.png');
+}
